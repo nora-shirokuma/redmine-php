@@ -1,0 +1,18 @@
+{
+    "name": "nora-shirokuma/redmine-php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NoraShirokuma\\RedminePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nora-shirokuma",
+            "email": "myself@nora-shirokuma.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
