@@ -14,5 +14,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "nora-shirokuma/common-php": "^1.0"
+    }
 }
