@@ -184,16 +184,16 @@
         },
         {
             "name": "nora-shirokuma/common-php",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nora-shirokuma/common-php.git",
-                "reference": "76520b3a5796a42cd3dae3d9bfd9dc76263bfcce"
+                "reference": "ba3e6fa7c972e6fb9b36631248bb42e1c93a4544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nora-shirokuma/common-php/zipball/76520b3a5796a42cd3dae3d9bfd9dc76263bfcce",
-                "reference": "76520b3a5796a42cd3dae3d9bfd9dc76263bfcce",
+                "url": "https://api.github.com/repos/nora-shirokuma/common-php/zipball/ba3e6fa7c972e6fb9b36631248bb42e1c93a4544",
+                "reference": "ba3e6fa7c972e6fb9b36631248bb42e1c93a4544",
                 "shasum": ""
             },
             "require": {
@@ -217,9 +217,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nora-shirokuma/common-php/issues",
-                "source": "https://github.com/nora-shirokuma/common-php/tree/1.0.2"
+                "source": "https://github.com/nora-shirokuma/common-php/tree/1.0.3"
             },
-            "time": "2024-04-09T06:42:01+00:00"
+            "time": "2024-04-10T08:33:06+00:00"
         },
         {
             "name": "psr/clock",
