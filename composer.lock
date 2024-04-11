@@ -571,7 +571,7 @@
         },
         {
             "name": "nora-shirokuma/common-php",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nora-shirokuma/common-php.git",
@@ -604,7 +604,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nora-shirokuma/common-php/issues",
-                "source": "https://github.com/nora-shirokuma/common-php/tree/1.0.4"
+                "source": "https://github.com/nora-shirokuma/common-php/tree/1.0.5"
             },
             "time": "2024-04-11T08:35:18+00:00"
         },
