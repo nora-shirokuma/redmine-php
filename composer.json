@@ -15,7 +15,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "nora-shirokuma/common-php": "^1.0"
+        "nora-shirokuma/common-php": "^1.0",
+        "guzzlehttp/guzzle": "^7.8"
     },
     "config": {
         "platform": {
