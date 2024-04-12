@@ -571,16 +571,16 @@
         },
         {
             "name": "nora-shirokuma/common-php",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nora-shirokuma/common-php.git",
-                "reference": "ce971b758fd52aefaa49d537ec78dcd143b07570"
+                "reference": "aec274ebe4dbd3c7e20c3795b4ddde47f6c39d22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nora-shirokuma/common-php/zipball/ce971b758fd52aefaa49d537ec78dcd143b07570",
-                "reference": "ce971b758fd52aefaa49d537ec78dcd143b07570",
+                "url": "https://api.github.com/repos/nora-shirokuma/common-php/zipball/aec274ebe4dbd3c7e20c3795b4ddde47f6c39d22",
+                "reference": "aec274ebe4dbd3c7e20c3795b4ddde47f6c39d22",
                 "shasum": ""
             },
             "require": {
@@ -604,9 +604,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nora-shirokuma/common-php/issues",
-                "source": "https://github.com/nora-shirokuma/common-php/tree/1.0.9"
+                "source": "https://github.com/nora-shirokuma/common-php/tree/1.0.10"
             },
-            "time": "2024-04-12T03:44:07+00:00"
+            "time": "2024-04-12T06:20:40+00:00"
         },
         {
             "name": "phpoption/phpoption",
