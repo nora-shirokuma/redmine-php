@@ -2,9 +2,9 @@
 
 namespace NoraShirokuma\RedminePhp\Domain\Redmine\Project;
 
-use NoraShirokuma\CommonPhp\AbstractInt;
+use NoraShirokuma\CommonPhp\AbstractString;
 
-class ProjectId extends AbstractInt
+class ProjectId extends AbstractString
 {
 
 }
