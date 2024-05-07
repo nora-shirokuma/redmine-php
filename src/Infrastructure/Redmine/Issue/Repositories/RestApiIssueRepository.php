@@ -12,6 +12,8 @@ use NoraShirokuma\RedminePhp\Infrastructure\Redmine\Issue\CreateIssue\CreateIssu
 
 class RestApiIssueRepository implements IssueRepository
 {
+    private const TIMEOUT = 600;
+
     private const RETRY_TIMES = 5;
 
     private const RETRY_SLEEP = 100;
@@ -73,7 +75,7 @@ class RestApiIssueRepository implements IssueRepository
 
         $options = [
             'headers' => $headers,
-            'timeout' => 600,
+            'timeout' => self::TIMEOUT,
             'retry'   => [
                 'max'     => self::RETRY_TIMES,
                 'delay'   => self::RETRY_SLEEP,
