@@ -4,6 +4,7 @@ namespace NoraShirokuma\RedminePhp\Infrastructure\Redmine\Issue\Repositories;
 
 use Exception;
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 use NoraShirokuma\RedminePhp\Domain\Redmine\Issue\IssueRepository;
 use NoraShirokuma\RedminePhp\Domain\Redmine\RestApi\ApiKey;
@@ -28,6 +29,10 @@ class RestApiIssueRepository implements IssueRepository
         $this->apiKey = $apiKey;
     }
 
+    /**
+     * @throws GuzzleException
+     * @throws Exception
+     */
     public function create(CreateIssueRequest $request): bool
     {
         $client = new Client();
