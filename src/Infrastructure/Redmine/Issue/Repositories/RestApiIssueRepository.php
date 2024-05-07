@@ -87,7 +87,7 @@ class RestApiIssueRepository implements IssueRepository
             $response = $client->request('post', $url, $options);
             echo $response->getBody();
         } catch (RequestException $e) {
-            throw new Exception('エラーが発生しました。', $e->getCode(), $e);
+            throw new Exception('[ERROR] ', $e->getCode(), $e);
         }
 
         return true;
